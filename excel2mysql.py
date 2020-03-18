@@ -41,12 +41,4 @@ engine = create_engine("mysql+pymysql://root:1123@127.0.0.1:3306/test_db?charset
 
 df = pd.read_excel("./data/book.xlsx")
 print(df)
-df.to_sql(name="book",con=engine,schema='test_db',if_exists="replace")
-
-
-
-
-
-
-
-
+df.to_sql(name="book", con=engine, schema='test_db', if_exists="replace")
