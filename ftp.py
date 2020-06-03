@@ -1,10 +1,5 @@
 import os
 
-'''
-直接用命令行也可以
-python -m pyftpdlib -p 2121
-'''
-
 from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
@@ -13,11 +8,10 @@ def main():
     # Instantiate a dummy authorizer for managing 'virtual' users
     authorizer = DummyAuthorizer()
 
-    # file,Define a new user having full r/w permissions and a read-only
+    # Define a new user having full r/w permissions and a read-only
     # anonymous user
-    authorizer.add_user('user', '12345', '../', perm='elradfmwMT')
+    authorizer.add_user('user', '12345', '.', perm='elradfmwMT')
     #authorizer.add_anonymous(os.getcwd())
-    #authorizer.add_user('user', '12345', os.getcwd(), perm='elradfmwMT')
 
     # Instantiate FTP handler class
     handler = FTPHandler
