@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="tools">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/py_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/swarm1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/swarm1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +70,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.swarm1">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="excel读取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +236,7 @@
       <workItem from="1604019580977" duration="428000" />
       <workItem from="1604047784952" duration="1125000" />
       <workItem from="1604541443739" duration="2039000" />
-      <workItem from="1604555154496" duration="140000" />
+      <workItem from="1604555154496" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -311,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604551465469</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="tools">
+      <created>1604555314489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604555314489</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,10 +367,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="tools" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="415" key="#Notifications" timestamp="1604019398672">
+    <state x="872" y="415" key="#Notifications" timestamp="1604555396888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="872" y="415" key="#Notifications/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604019398672" />
+    <state x="872" y="415" key="#Notifications/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555396888" />
     <state width="746" height="218" key="GridCell.Tab.0.bottom" timestamp="1604048287056">
       <screen x="1920" y="93" width="1536" height="832" />
     </state>
@@ -360,11 +392,11 @@
     </state>
     <state x="393" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604551522129" />
     <state x="491" y="197" key="SettingsEditor/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555295878" />
-    <state x="466" y="227" key="Vcs.Push.Dialog.v2" timestamp="1604551494914">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="582" y="286" key="Vcs.Push.Dialog.v2" timestamp="1604555326257">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604551494914" />
-    <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604019025246" />
+    <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555326257" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_tools$excel2mysql.coverage" NAME="excel2mysql Coverage Results" MODIFIED="1584380786518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -375,7 +407,7 @@
     <SUITE FILE_PATH="coverage/py_tools$download.coverage" NAME="download Coverage Results" MODIFIED="1584374696744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$excel.coverage" NAME="excel读取 Coverage Results" MODIFIED="1584545749110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$swarm.coverage" NAME="swarm Coverage Results" MODIFIED="1604047938993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/py_tools$swarm1.coverage" NAME="swarm1 Coverage Results" MODIFIED="1604048287006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/py_tools$swarm1.coverage" NAME="swarm1 Coverage Results" MODIFIED="1604555443078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/py_tools$pic2text.coverage" NAME="pic2text Coverage Results" MODIFIED="1584376123573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">

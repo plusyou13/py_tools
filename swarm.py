@@ -1,48 +1,109 @@
 import numpy as np
-from swarm_intelligence.particle import Particle
-from swarm_intelligence.pso import ParticleSwarmOptimizer
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
+import math
+'''
+粒子群算法
+'''
+def getweight():
+    # 惯性权重
+    weight = 1
+    return weight
 
-mean_01 = np.array([1.0, 2.0])
-mean_02 = np.array([-1.0, 4.0])
+def getlearningrate():
+    # 分别是粒子的个体和社会的学习因子，也称为加速常数
+    lr = (0.49445,1.49445)
+    return lr
 
-cov_01 = np.array([[1.0, 0.9], [0.9, 2.0]])
-cov_02 = np.array([[2.0, 0.5], [0.5, 1.0]])
+def getmaxgen():
+    # 最大迭代次数
+    maxgen = 300
+    return maxgen
 
-ds_01 = np.random.multivariate_normal(mean_01, cov_01, 250)
-ds_02 = np.random.multivariate_normal(mean_02, cov_02, 250)
+def getsizepop():
+    # 种群规模
+    sizepop = 50
+    return sizepop
 
-all_data = np.zeros((500, 3))
-all_data[:250, :2] = ds_01
-all_data[250:, :2] = ds_02
-all_data[250:, -1] = 1
+def getrangepop():
+    # 粒子的位置的范围限制,x、y方向的限制相同
+    rangepop = (-2*math.pi , 2*math.pi)
+    #rangepop = (-2,2)
+    return rangepop
 
-np.random.shuffle(all_data)
+def getrangespeed():
+    # 粒子的速度范围限制
+    rangespeed = (-0.5,0.5)
+    return rangespeed
 
-split = int(0.8 * all_data.shape[0])
-x_train = all_data[:split, :2]
-x_test = all_data[split:, :2]
-y_train = all_data[:split, -1]
-y_test = all_data[split:, -1]
+def func(x):
+    # x输入粒子位置
+    # y 粒子适应度值
+    if (x[0]==0)&(x[1]==0):
+        y = np.exp((np.cos(2*np.pi*x[0])+np.cos(2*np.pi*x[1]))/2)-2.71289
+    else:
+        y = np.sin(np.sqrt(x[0]**2+x[1]**2))/np.sqrt(x[0]**2+x[1]**2)+np.exp((np.cos(2*np.pi*x[0])+np.cos(2*np.pi*x[1]))/2)-2.71289
+    return y
 
-def sigmoid(logit):
-    return 1 / (1 + np.exp(-logit))
+def initpopvfit(sizepop):
+    pop = np.zeros((sizepop,2))
+    v = np.zeros((sizepop,2))
+    fitness = np.zeros(sizepop)
 
-def fitness(w, X=x_train, y=y_train):
-    logit  = w[0] <em> X[:, 0] + w[1] <em> X[:, 1] + w[2]
-    preds = sigmoid(logit)
+    for i in range(sizepop):
+        pop[i] = [(np.random.rand()-0.5)*rangepop[0]*2,(np.random.rand()-0.5)*rangepop[1]*2]
+        v[i] = [(np.random.rand()-0.5)*rangepop[0]*2,(np.random.rand()-0.5)*rangepop[1]*2]
+        fitness[i] = func(pop[i])
+    return pop,v,fitness
 
-    return binary_cross_entropy(y, preds)
+def getinitbest(fitness,pop):
+    # 群体最优的粒子位置及其适应度值
+    gbestpop,gbestfitness = pop[fitness.argmax()].copy(),fitness.max()
+    #个体最优的粒子位置及其适应度值,使用copy()使得对pop的改变不影响pbestpop，pbestfitness类似
+    pbestpop,pbestfitness = pop.copy(),fitness.copy()
 
-def binary_cross_entropy(y, y_hat):
-    left = y * np.log(y_hat + 1e-7)
-    right = (1 - y) * np.log((1 - y_hat) + 1e-7)
-    return -np.mean(left + right)
+    return gbestpop,gbestfitness,pbestpop,pbestfitness
 
-pso = ParticleSwarmOptimizer(Particle, 0.1, 0.3, 30, fitness,
-                             lambda x, y: x<y, n_iter=100,
-                             dims=3, random=True,
-                             position_range=(0, 1), velocity_range=(0, 1))
-pso.optimize()
+w = getweight()
+lr = getlearningrate()
+maxgen = getmaxgen()
+sizepop = getsizepop()
+rangepop = getrangepop()
+rangespeed = getrangespeed()
 
-print(pso.gbest, fitness(pso.gbest, x_test, y_test))
+pop,v,fitness = initpopvfit(sizepop)
+gbestpop,gbestfitness,pbestpop,pbestfitness = getinitbest(fitness,pop)
+
+result = np.zeros(maxgen)
+for i in range(maxgen):
+        t=0.5
+        #速度更新
+        for j in range(sizepop):
+            v[j] += lr[0]*np.random.rand()*(pbestpop[j]-pop[j])+lr[1]*np.random.rand()*(gbestpop-pop[j])
+        v[v<rangespeed[0]] = rangespeed[0]
+        v[v>rangespeed[1]] = rangespeed[1]
+
+        #粒子位置更新
+        for j in range(sizepop):
+            #pop[j] += 0.5*v[j]
+            pop[j] = t*(0.5*v[j])+(1-t)*pop[j]
+        pop[pop<rangepop[0]] = rangepop[0]
+        pop[pop>rangepop[1]] = rangepop[1]
+
+        #适应度更新
+        for j in range(sizepop):
+            fitness[j] = func(pop[j])
+
+        for j in range(sizepop):
+            if fitness[j] > pbestfitness[j]:
+                pbestfitness[j] = fitness[j]
+                pbestpop[j] = pop[j].copy()
+
+        if pbestfitness.max() > gbestfitness :
+            gbestfitness = pbestfitness.max()
+            gbestpop = pop[pbestfitness.argmax()].copy()
+
+        result[i] = gbestfitness
+
+
+plt.plot(result)
+plt.show()
