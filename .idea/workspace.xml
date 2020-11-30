@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="tools">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_tools.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/Txt_To_Excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/data.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/swarm1.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/swarm1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +52,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,12 +68,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Git\py\py_tools\data" />
       <recent name="D:\Git\py\py_tools" />
+      <recent name="D:\Git\py\py_tools\data" />
       <recent name="C:\Users\lic\Desktop\demo\py_tools\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.swarm1">
+  <component name="RunManager" selected="Python.employ">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="excel读取" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="employ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,9 +109,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel读取.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/employ.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -204,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.employ" />
+        <item itemvalue="Python.excel2mysql" />
         <item itemvalue="Python.swarm1" />
         <item itemvalue="Python.swarm" />
         <item itemvalue="Python.pandas_time" />
-        <item itemvalue="Python.excel读取" />
-        <item itemvalue="Python.excel2mysql" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +240,11 @@
       <workItem from="1604019580977" duration="428000" />
       <workItem from="1604047784952" duration="1125000" />
       <workItem from="1604541443739" duration="2039000" />
-      <workItem from="1604555154496" duration="369000" />
+      <workItem from="1604555154496" duration="451000" />
+      <workItem from="1605238747931" duration="1469000" />
+      <workItem from="1606456573516" duration="3640000" />
+      <workItem from="1606462548822" duration="1557000" />
+      <workItem from="1606703286205" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -343,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604555314489</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="tools">
+      <created>1604555598369</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604555598369</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +377,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="py脚本小工具" />
     <MESSAGE value="tools" />
     <option name="LAST_COMMIT_MESSAGE" value="tools" />
@@ -371,21 +387,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="872" y="415" key="#Notifications/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555396888" />
-    <state width="746" height="218" key="GridCell.Tab.0.bottom" timestamp="1604048287056">
-      <screen x="1920" y="93" width="1536" height="832" />
+    <state x="700" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606456633484">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="700" y="308" key="#com.intellij.fileTypes.FileTypeChooser/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606456633484" />
+    <state width="1860" height="189" key="GridCell.Tab.0.bottom" timestamp="1605267538674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="189" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605267538674" />
     <state width="746" height="218" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287056" />
-    <state width="746" height="218" key="GridCell.Tab.0.center" timestamp="1604048287055">
-      <screen x="1920" y="93" width="1536" height="832" />
+    <state width="1860" height="189" key="GridCell.Tab.0.center" timestamp="1605267538674">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="189" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605267538674" />
     <state width="746" height="218" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
-    <state width="746" height="218" key="GridCell.Tab.0.left" timestamp="1604048287054">
-      <screen x="1920" y="93" width="1536" height="832" />
+    <state width="1860" height="189" key="GridCell.Tab.0.left" timestamp="1605267538674">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="189" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605267538674" />
     <state width="746" height="218" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287054" />
-    <state width="746" height="218" key="GridCell.Tab.0.right" timestamp="1604048287055">
-      <screen x="1920" y="93" width="1536" height="832" />
+    <state width="1860" height="189" key="GridCell.Tab.0.right" timestamp="1605267538674">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1860" height="189" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605267538674" />
     <state width="746" height="218" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
     <state x="491" y="197" key="SettingsEditor" timestamp="1604555295878">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -399,7 +423,7 @@
     <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555326257" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/py_tools$excel2mysql.coverage" NAME="excel2mysql Coverage Results" MODIFIED="1584380786518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_tools$excel2mysql.coverage" NAME="excel2mysql Coverage Results" MODIFIED="1605239432877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$monitor.coverage" NAME="monitor Coverage Results" MODIFIED="1584375765343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$zip.coverage" NAME="zip Coverage Results" MODIFIED="1584375281222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$ftp.coverage" NAME="ftp Coverage Results" MODIFIED="1584274757687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
