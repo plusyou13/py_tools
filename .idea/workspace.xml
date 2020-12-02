@@ -20,13 +20,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="tools">
-      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/Txt_To_Excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/data.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TXT_To_Excel-master/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/.idea/acwing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/3点共线.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/bag_01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/bag_complete.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/time.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/杨辉三角.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/约德尔测试cpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/翻转数组cpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/股票cpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/计算器的新功能cpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/路灯cpp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/_trial_temp/_trial_marker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/_trial_temp/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/heap_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/heapq_heapdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/heapq_showtree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/isPerfectSquare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/random_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/test_isPerfectSquare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/丑数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/爬楼梯.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/约德尔测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/翻转数组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/股神.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/计算器的新功能.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/超级丑数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/路灯.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.idea/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/generate-parentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/py_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/Txt_To_Excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/data.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data1.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +109,55 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\py\py_tools\acwing\python版本" />
+      <recent name="D:\Git\py\py_tools\acwing\heap_demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Git\py\py_tools" />
       <recent name="D:\Git\py\py_tools\data" />
       <recent name="C:\Users\lic\Desktop\demo\py_tools\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.employ">
+  <component name="RunManager" selected="Python.heap_test (1)">
+    <configuration name="丑数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Git\py\py_tools\acwing\python版本\丑数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="超级丑数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Git\py\py_tools\acwing\python版本\超级丑数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,88 +202,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="excel2mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="heap_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本/heap_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel2mysql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/heap_demo/heap_test.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="heap_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_time.py" />
+      <option name="SCRIPT_NAME" value="D:\Git\py\py_tools\acwing\heap_demo\heap_test.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="swarm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swarm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="swarm1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/swarm1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -208,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.heap_test (1)" />
+        <item itemvalue="Python.heap_test" />
+        <item itemvalue="Python.超级丑数" />
+        <item itemvalue="Python.丑数" />
         <item itemvalue="Python.employ" />
-        <item itemvalue="Python.excel2mysql" />
-        <item itemvalue="Python.swarm1" />
-        <item itemvalue="Python.swarm" />
-        <item itemvalue="Python.pandas_time" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +278,8 @@
       <workItem from="1605238747931" duration="1469000" />
       <workItem from="1606456573516" duration="3640000" />
       <workItem from="1606462548822" duration="1557000" />
-      <workItem from="1606703286205" duration="910000" />
+      <workItem from="1606703286205" duration="1998000" />
+      <workItem from="1606877031389" duration="6443000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -358,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604555598369</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tools">
+      <created>1606704468505</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606704468505</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,16 +453,16 @@
     </state>
     <state width="1860" height="189" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605267538674" />
     <state width="746" height="218" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
-    <state x="491" y="197" key="SettingsEditor" timestamp="1604555295878">
+    <state x="491" y="197" key="SettingsEditor" timestamp="1606704931038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604551522129" />
-    <state x="491" y="197" key="SettingsEditor/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555295878" />
-    <state x="582" y="286" key="Vcs.Push.Dialog.v2" timestamp="1604555326257">
+    <state x="491" y="197" key="SettingsEditor/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606704931038" />
+    <state x="582" y="286" key="Vcs.Push.Dialog.v2" timestamp="1606704939486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604551494914" />
-    <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604555326257" />
+    <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606704939486" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/py_tools$excel2mysql.coverage" NAME="excel2mysql Coverage Results" MODIFIED="1605239432877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
