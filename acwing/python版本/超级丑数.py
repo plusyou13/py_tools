@@ -21,7 +21,7 @@ import heapq
 
 class Solution:
     # 动态规划
-    def nthSuperUglyNumber1(self, n: int, primes: List[int]) -> int:
+    def nthSuperUglyNumber0(self, n: int, primes: List[int]) -> int:
         L = [0 for i in range(len(primes))]
         result = [0 for i in range(n)]
         result[0] = 1
@@ -32,6 +32,19 @@ class Solution:
                 if result[L[k]]*primes[k] == min_u:
                     L[k] += 1
         return result[n-1]
+
+    def nthSuperUglyNumber1(self, n: int, primes: List[int]) -> int:
+        #dp 相当于result,idx相当于L
+        dp = [1] * n
+        idx = [0] * len(primes)
+        tmp = [dp[idx[j]] * primes[j] for j in range(len(idx))]
+        for i in range(1, n):
+            dp[i] = min(tmp)
+            for j in range(len(idx)):
+                if dp[idx[j]] * primes[j] == dp[i]:
+                    idx[j] += 1
+                    tmp[j] = dp[idx[j]] * primes[j]
+        return dp[-1]
 
     # 动态规划三步走
     # 第一步: 定义数组元素的含义，我们的问题是要求查找第n个超级丑数。那我们就定义dp[i]的含义为：从小到大排列的第i个丑数值为dp[i]。

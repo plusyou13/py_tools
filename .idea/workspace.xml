@@ -20,55 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="tools">
-      <change afterPath="$PROJECT_DIR$/acwing/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/.idea/acwing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/3点共线.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/bag_01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/bag_complete.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/time.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/杨辉三角.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/约德尔测试cpp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/翻转数组cpp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/股票cpp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/计算器的新功能cpp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/cpp版本/路灯cpp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/_trial_temp/_trial_marker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/_trial_temp/test.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/heap_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/heapq_heapdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/heap_demo/heapq_showtree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/isPerfectSquare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/random_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/test_isPerfectSquare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/丑数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/爬楼梯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/约德尔测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/翻转数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/股神.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/计算器的新功能.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/超级丑数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/路灯.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.idea/leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/generate-parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py_tools.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/去除重复字母.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/拼接最大数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/移除k位数字,得到最小数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/Txt_To_Excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/data.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TXT_To_Excel-master/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/python版本/超级丑数.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/超级丑数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,18 +75,18 @@
       <recent name="C:\Users\lic\Desktop\demo\py_tools\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.heap_test (1)">
-    <configuration name="丑数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.去除重复字母">
+    <configuration name="去除重复字母" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Git\py\py_tools\acwing\python版本\丑数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/去除重复字母.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,28 +136,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="employ" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/employ.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="heap_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,13 +174,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="移除k位数字,得到最小数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/移除k位数字,得到最小数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.去除重复字母" />
+        <item itemvalue="Python.移除k位数字,得到最小数" />
         <item itemvalue="Python.heap_test (1)" />
         <item itemvalue="Python.heap_test" />
         <item itemvalue="Python.超级丑数" />
-        <item itemvalue="Python.丑数" />
-        <item itemvalue="Python.employ" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +232,7 @@
       <workItem from="1606456573516" duration="3640000" />
       <workItem from="1606462548822" duration="1557000" />
       <workItem from="1606703286205" duration="1998000" />
-      <workItem from="1606877031389" duration="6443000" />
+      <workItem from="1606877031389" duration="11231000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -400,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606704468505</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tools">
+      <created>1606890295279</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606890295279</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
