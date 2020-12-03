@@ -56,6 +56,6 @@ class Solution:
 
 if __name__ == '__main__':
     s=Solution()
-    b=s.removeDuplicateLetters('bcabcd')
+    b=s.removeDuplicateLetters2('bcasdfgdfgasdhdfgrtesdfgasdfasdfdfgabcd')
     print(b)
 
