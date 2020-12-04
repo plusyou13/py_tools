@@ -35,7 +35,6 @@ class Solution:
     # 二分法＋bfs
     def minimumEffortPath2(self, heights: List[List[int]]) -> int:
         m, n = len(heights), len(heights[0])
-
         mat = [[0]*n for _ in range(m)]
 
         l, r = 0, 999999
