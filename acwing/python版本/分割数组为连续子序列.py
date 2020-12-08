@@ -25,6 +25,8 @@
 输入: [1,2,3,4,4,5]
 输出: False
 '''
+import collections
+import itertools
 from typing import List
 class Solution:
     def isPossible(self, nums: List[int]) -> bool:
