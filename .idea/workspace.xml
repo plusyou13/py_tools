@@ -26,13 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="tools">
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/串联所有单词字串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/字母异位词分组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/最长有效括号.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/有效数独.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/不同路径.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/整数转罗马数字.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/python版本/分割数组为连续子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/分割数组为连续子序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/leetcode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/generate-parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/generate-parentheses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +80,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Git\py\py_tools\acwing\python版本" />
-      <recent name="D:\Git\py\py_tools\acwing\heap_demo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Git\py\py_tools" />
       <recent name="D:\Git\py\py_tools\data" />
       <recent name="C:\Users\lic\Desktop\demo\py_tools\data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\py\py_tools\acwing\python版本" />
+      <recent name="D:\Git\py\py_tools\acwing\heap_demo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.去除重复字母">
+  <component name="RunManager" selected="Python.generate-parentheses">
     <configuration name="去除重复字母" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +108,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/去除重复字母.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="分割数组的最大值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/分割数组的最大值.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="将数组拆分为斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,6 +184,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/串联所有单词字串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="不同路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/不同路径.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,6 +268,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="整数转罗马数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/整数转罗马数字.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="分割数组为连续子序列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,25 +344,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="分割数组的最大值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/分割数组的最大值.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,6 +358,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate-parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/generate-parentheses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,6 +412,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate-parentheses" />
         <item itemvalue="Python.去除重复字母" />
         <item itemvalue="Python.移除k位数字,得到最小数" />
       </list>
@@ -370,7 +453,10 @@
       <workItem from="1607043577114" duration="3253000" />
       <workItem from="1607301313399" duration="4648000" />
       <workItem from="1607310810007" duration="4923000" />
-      <workItem from="1607387916475" duration="1732000" />
+      <workItem from="1607387916475" duration="4359000" />
+      <workItem from="1607406695285" duration="626000" />
+      <workItem from="1607407583791" duration="1841000" />
+      <workItem from="1607474604149" duration="2902000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -519,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607048777821</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="tools">
+      <created>1607390897893</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607390897893</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,11 +693,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
-    <state x="491" y="197" key="SettingsEditor" timestamp="1606704931038">
+    <state x="491" y="197" key="SettingsEditor" timestamp="1607394667680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604551522129" />
-    <state x="491" y="197" key="SettingsEditor/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606704931038" />
+    <state x="491" y="197" key="SettingsEditor/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607394667680" />
     <state x="582" y="286" key="Vcs.Push.Dialog.v2" timestamp="1606958760519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
