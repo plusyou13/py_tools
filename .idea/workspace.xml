@@ -26,16 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="tools">
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/不同路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/整数转罗马数字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/ListNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/下一个排列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/两两交换链表中的节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/找零问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/移除元素.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/.idea/leetcode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/generate-parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/generate-parentheses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -83,17 +85,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\py\py_tools\acwing\python版本" />
+      <recent name="D:\Git\py\py_tools\acwing\heap_demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Git\py\py_tools" />
       <recent name="D:\Git\py\py_tools\data" />
       <recent name="C:\Users\lic\Desktop\demo\py_tools\data" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Git\py\py_tools\acwing\python版本" />
-      <recent name="D:\Git\py\py_tools\acwing\heap_demo" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.generate-parentheses">
+  <component name="RunManager" selected="Python.找零问题">
     <configuration name="去除重复字母" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="分割数组的最大值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="找零问题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,83 +128,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/分割数组的最大值.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="将数组拆分为斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="拼接最大数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/拼接最大数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="串联所有单词字串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/串联所有单词字串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="不同路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/不同路径.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/找零问题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,6 +270,158 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="移除元素" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/移除元素.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/两两交换链表中的节点.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="下一个排列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/下一个排列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="分割数组的最大值" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/分割数组的最大值.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="将数组拆分为斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/将数组拆分为斐波那契数列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="拼接最大数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/拼接最大数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="串联所有单词字串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/串联所有单词字串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="不同路径" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/不同路径.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,33 +466,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="移除k位数字,得到最小数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/移除k位数字,得到最小数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.找零问题" />
         <item itemvalue="Python.generate-parentheses" />
         <item itemvalue="Python.去除重复字母" />
-        <item itemvalue="Python.移除k位数字,得到最小数" />
       </list>
     </recent_temporary>
   </component>
@@ -457,6 +513,8 @@
       <workItem from="1607406695285" duration="626000" />
       <workItem from="1607407583791" duration="1841000" />
       <workItem from="1607474604149" duration="2902000" />
+      <workItem from="1607497502027" duration="6066000" />
+      <workItem from="1607560807071" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -612,7 +670,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607390897893</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="tools">
+      <created>1607497578985</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607497578985</updated>
+    </task>
+    <task id="LOCAL-00024" summary="tools">
+      <created>1607497649332</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607497649332</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,52 +729,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="308" key="#com.intellij.fileTypes.FileTypeChooser/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606456633484" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
     <state width="746" height="218" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287056" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
     <state width="746" height="218" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
     <state width="746" height="218" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287054" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
     <state width="746" height="218" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607320402909">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607503715822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607320402909" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
     <state x="491" y="197" key="SettingsEditor" timestamp="1607394667680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="393" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604551522129" />
     <state x="491" y="197" key="SettingsEditor/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607394667680" />
-    <state x="582" y="286" key="Vcs.Push.Dialog.v2" timestamp="1606958760519">
+    <state x="582" y="286" key="Vcs.Push.Dialog.v2" timestamp="1607497906406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="227" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604551494914" />
-    <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606958760519" />
+    <state x="582" y="286" key="Vcs.Push.Dialog.v2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607497906406" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1607328887554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -711,6 +783,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607311021027" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607499407206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607499407206" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,7 +808,7 @@
     <SUITE FILE_PATH="coverage/py_tools$download.coverage" NAME="download Coverage Results" MODIFIED="1584374696744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$excel.coverage" NAME="excel读取 Coverage Results" MODIFIED="1584545749110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$swarm.coverage" NAME="swarm Coverage Results" MODIFIED="1604047938993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/py_tools$.coverage" NAME="串联所有单词字串 Coverage Results" MODIFIED="1607320389011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/acwing/python版本" />
+    <SUITE FILE_PATH="coverage/py_tools$.coverage" NAME="下一个排列 Coverage Results" MODIFIED="1607503702414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/acwing/python版本" />
     <SUITE FILE_PATH="coverage/py_tools$swarm1.coverage" NAME="swarm1 Coverage Results" MODIFIED="1604555443078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/py_tools$pic2text.coverage" NAME="pic2text Coverage Results" MODIFIED="1584376123573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
