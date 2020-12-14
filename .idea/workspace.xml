@@ -26,15 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff0b16d-d1f8-4992-af96-1b1b2ace534d" name="Default Changelist" comment="leetcode">
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖--股票价格跨度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖--股票的最大利润.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖最佳股票时机含冷冻期.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acwing/python版本/买卖股票的最佳时机含手续费.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/位1的个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acwing/python版本/数1的个数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/python版本/买卖--股票的最大利润.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机4.py" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +95,8 @@
       <recent name="D:\Git\py\py_tools\acwing\heap_demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.买卖股票最佳时机3">
-    <configuration name="去除重复字母" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.两两交换链表中的节点">
+    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +109,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/去除重复字母.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/两两交换链表中的节点.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +132,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="位1的个数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/位1的个数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,6 +185,9 @@
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -185,55 +203,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="找零问题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="买卖股票最佳时机4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/找零问题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="有效数独" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/有效数独.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="字母异位词分组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/字母异位词分组.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/买卖股票最佳时机4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,25 +339,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="两两交换链表中的节点" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/两两交换链表中的节点.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="下一个排列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -489,6 +453,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="有效数独" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/有效数独.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="字母异位词分组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/字母异位词分组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="py_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -511,35 +513,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate-parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_tools" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acwing/python版本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/acwing/python版本/generate-parentheses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.买卖股票最佳时机4" />
         <item itemvalue="Python.买卖股票最佳时机3" />
         <item itemvalue="Python.买卖股票最佳时机2" />
         <item itemvalue="Python.买卖股票最佳时机1" />
-        <item itemvalue="Python.generate-parentheses" />
-        <item itemvalue="Python.去除重复字母" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +564,8 @@
       <workItem from="1607497502027" duration="6066000" />
       <workItem from="1607560807071" duration="4174000" />
       <workItem from="1607579762685" duration="4498000" />
-      <workItem from="1607646056864" duration="3175000" />
+      <workItem from="1607646056864" duration="8412000" />
+      <workItem from="1607925819911" duration="1972000" />
     </task>
     <task id="LOCAL-00001" summary="py脚本小工具">
       <created>1584275073771</created>
@@ -762,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607562066381</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="leetcode">
+      <created>1607655530717</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607655530717</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -808,42 +795,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="308" key="#com.intellij.fileTypes.FileTypeChooser/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606456633484" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.0.bottom" timestamp="1607681303961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1860" height="288" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303961" />
     <state width="746" height="218" key="GridCell.Tab.0.bottom/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287056" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.0.center" timestamp="1607681303960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1860" height="288" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303960" />
     <state width="746" height="218" key="GridCell.Tab.0.center/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.0.left" timestamp="1607681303960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1860" height="288" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303960" />
     <state width="746" height="218" key="GridCell.Tab.0.left/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287054" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.0.right" timestamp="1607681303961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1860" height="288" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303960" />
     <state width="746" height="218" key="GridCell.Tab.0.right/1920.93.1536.832/0.0.1920.1040@1920.93.1536.832" timestamp="1604048287055" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.1.bottom" timestamp="1607681303961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.1.bottom/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303961" />
+    <state width="1860" height="288" key="GridCell.Tab.1.center" timestamp="1607681303961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.1.center/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303961" />
+    <state width="1860" height="288" key="GridCell.Tab.1.left" timestamp="1607681303961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607503715822">
+    <state width="1860" height="288" key="GridCell.Tab.1.left/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303961" />
+    <state width="1860" height="288" key="GridCell.Tab.1.right" timestamp="1607681303961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607503715822" />
+    <state width="1860" height="288" key="GridCell.Tab.1.right/1920.93.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607681303961" />
     <state x="491" y="197" key="SettingsEditor" timestamp="1607394667680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -888,6 +875,7 @@
     <SUITE FILE_PATH="coverage/py_tools$excel.coverage" NAME="excel读取 Coverage Results" MODIFIED="1584545749110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$swarm.coverage" NAME="swarm Coverage Results" MODIFIED="1604047938993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py_tools$.coverage" NAME="下一个排列 Coverage Results" MODIFIED="1607503702414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/acwing/python版本" />
+    <SUITE FILE_PATH="coverage/py_tools$4.coverage" NAME="买卖股票最佳时机4 Coverage Results" MODIFIED="1607675290989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/acwing/python版本" />
     <SUITE FILE_PATH="coverage/py_tools$swarm1.coverage" NAME="swarm1 Coverage Results" MODIFIED="1604555443078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/py_tools$pic2text.coverage" NAME="pic2text Coverage Results" MODIFIED="1584376123573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
